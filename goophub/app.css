@@ -1,0 +1,185 @@
+
+main {
+    flex-grow: 1;
+  }
+header{
+    padding: 20px;
+    padding-right: 0px;
+    padding-left: 50px;
+    margin: 0;
+    max-width: 100%;
+    /**background-color: rgba(213, 159, 51, 0.393);**/
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    overflow-x: hidden;
+    background:#fffefe;
+    
+    
+
+}
+.resumebody{
+
+        margin: 0;
+        padding: 0;
+        padding-top: 50%;
+        height: 100vh; /* Make the body cover the entire viewport height */
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+
+}
+
+footer{
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom:0%;
+    width: 100%;
+    
+}
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    font-size: larger
+    
+}
+li {
+    display: inline; 
+    margin-right: 10px; 
+    
+}
+
+h1{
+    font-size: 250%;
+    color:#000000;
+    
+}
+a {
+color: #006106; 
+cursor: pointer;
+text-decoration: none;
+color: #00e16d;
+}
+
+
+.customButton{
+    width: 150px; 
+    height: 50px; 
+    font-size: 16px; 
+    background-color: #90a988; 
+    cursor: pointer; 
+    padding: 20px 10px;
+}
+
+.customButton:hover{
+    background-color: #269334;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    perspective: 800px; 
+}
+
+.image {
+    width: 550px;
+    height: auto;
+    transform-style: preserve-3d; 
+    transform: rotateY(11deg); 
+    position: absolute;
+    top: 230px;
+    right: 170px;
+
+}
+.socials{
+    width: 50px;
+
+}
+.center-content {
+        margin: 0 auto; 
+    }
+
+.content-container {
+        max-width: 100% 
+        
+      }
+@media (max-width: 768px) {
+    .content-container {
+      max-width: 100%; 
+    }
+}
+#pitch {
+
+    font-size: 2em;
+    
+}
+#enun{
+    font-size: 10em;
+}
+.resumeBox {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+
+    
+    }
+.exptitle{
+    background-color: rgb(252, 247, 247);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; 
+    font-size: 1em;
+   
+}
+.grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 100px); /* 2 rows with a height of 100px each */
+    gap: 10px; /* Gap between grid items */
+    padding: 0;
+    margin: 0;
+}
+
+/* Define styles for each list item */
+.item {
+    text-align: center;
+    font-size: .1em;
+    line-height: 100px; /* Vertically center text */
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #fff8f8;
+    
+}
+
+.pskill{
+    background-image: linear-gradient(45deg, #FF5733, #33FF57); /* Gradient colors and direction */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+    -webkit-text-fill-color: transparent;
+}
+
+.contactGrid {
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(2, 100px); /* 2 rows with a height of 100px each */
+    gap: 10px; /* Gap between grid items */
+    padding: 0;
+    margin: 0;
+}
+
+.contactItem{
+    text-align: center;
+    font-size: .1em;
+    line-height: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #fff8f8;
+}
+
